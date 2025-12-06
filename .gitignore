@@ -1,0 +1,13 @@
+﻿# Node / tooling
+node_modules/
+.pnpm-store/
+.pnp.*        # Yarn PnP (harmless if unused)
+# Slidev build & exports (we keep these on Drive, not in Git)
+dist/
+exports/
+slides-export.pdf
+slides-export/
+slides-export.pptx
+# OS/editor noise
+.DS_Store
+Thumbs.db
